@@ -6,7 +6,7 @@ The website features 5000 books that are stored on the PostgreSQL database. User
 
 ## Overview Video
 
-[![Watch the Overview Video](https://img.youtu.be/vi/n3IWYhftpbE/hqdefault.jpg)](https://youtu.be/n3IWYhftpbE)
+[![Watch the Overview Video](http://img.youtube.com/vi/n3IWYhftpbE/0.jpg)](http://www.youtube.com/watch?v=n3IWYhftpbE)
 
 ## Features
 
