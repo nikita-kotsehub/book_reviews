@@ -114,7 +114,7 @@ def book(isbn):
     # Get all the information for the book's page
     result = db.execute("SELECT * FROM books WHERE isbn = :isbn", {"isbn": isbn}).fetchone()
     # Use Goodreads API to get average_rating and work_rating_count, as well as many other variables
-    res = requests.get("https://www.goodreads.com/book/review_counts.json", params={"key": "MZfmUkTuocX88glHuG9wOg", "isbns": "9781632168146"})
+    res = requests.get("https://www.goodreads.com/book/review_counts.json", params={"key": "MZfmUkTuocX88glHuG9wOg", "isbns": isbn})
     data = res.json()
     average = data['books'][0]['average_rating'] 
     num_of_ratings = data['books'][0]['work_ratings_count']
