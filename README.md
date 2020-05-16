@@ -37,6 +37,6 @@ The website features 5000 books which are stored on PostgreSQL database. Users c
       * `set DATABASE_URL="link or path to yor database`
     - `KEY` = is your API key, will give you the review and rating data for the book with the provided ISBN number (register at goodreads.com)
 5. Run `create.sql` against your database to create the necessary tables
-  ![Alt text](db-schema.png?raw=true "Title")
+
 6. Run `python import.py` to import a spreadsheet in CSV format of 5000 different books to your database
 7. Finally execute `flask run` command in your terminal to start the server
