@@ -2,7 +2,11 @@
 
 ## Overview
 
-The website features 5000 books which are stored on PostgreSQL database. Users can look up and review the books, as well as read general information and reviews from other users. The application utilizes Goodreads API for fetching extra information. Also, the web application offers its own API.
+The website features 5000 books that are stored on the PostgreSQL database. Users can look up and review the books, as well as read general information and reviews from other users. The application utilizes the Goodreads API for fetching extra information. Also, the web application offers its own API.
+
+## Overview Video
+
+[![IMAGE ALT TEXT HERE](https://img.https://youtu.be/n3IWYhftpbE.jpg)](https://youtu.be/n3IWYhftpbE)
 
 ## Features
 
