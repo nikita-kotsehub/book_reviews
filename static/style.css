@@ -1,0 +1,30 @@
+.row-padded {
+  padding: 35px;
+  background-color: #a33327;
+  border: 1px solid #181818;
+}
+
+.list {
+  margin-top: 20%;
+}
+
+.bgcol {
+  background-color: #a33327;
+}
+
+.my_col {
+  border: 1px dotted blue;
+}
+
+.my_row {
+  border: 1px dashed red;
+}
+
+.my_container {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */

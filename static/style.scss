@@ -1,0 +1,37 @@
+$color_rl: #c7493a;
+$color_rd: #a33327;
+$color_bg: #181818;
+$color_gr: #689775;
+$color_rsd: #917164;
+$color_rsl: #ad8174;
+$color_wht: #ffffff;
+
+.row-padded {
+    padding: 35px;
+    background-color: #a33327;
+    border: 1px solid #181818;
+  }
+
+.list {
+    margin-top: 20%;
+}
+
+.bgcol {
+    background-color: $color_rd;
+}
+
+.my_col{
+    border: 1px dotted blue;
+}
+
+.my_row{
+    border: 1px dashed red;
+}
+
+.my_container {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+}
